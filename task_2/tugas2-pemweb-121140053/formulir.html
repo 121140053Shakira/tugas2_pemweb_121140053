@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registrasi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrap">
+    <div class="container">
+    <h1><center>Formulir Registrasi</h1></center>
+
+    <form action="formulir_kirim.php" method="get">
+        <div class="input-box">
+        <table border="0" align="center">
+            <tr>
+                <td width="120">Nama</td>
+                <td><input type="text" name="nama" placeholder="enter your name"></td>
+            </tr>
+            <tr>
+                <td>NIM</td>
+                <td><input type="number" name="nim" placeholder="enter your NIM"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="text" name="email" placeholder="shakira@gmail.com"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="password" placeholder="enter your password"></td>
+            </tr>
+            <tr>
+                <td>Tanggal Lahir</td>
+                <td><input type="date" name="tanggal_lahir"></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td><input type="radio" name="jk" value="Laki-Laki"> Laki-Laki
+                    <input type="radio" name="jk" value="Perempuan"> Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>Hobi</td>
+                <td><input type="checkbox" name="check1" value="Bernyanyi"> Bernyanyi <br>
+                    <input type="checkbox" name="check2" value="Bermain musik"> Bermain musik <br>
+                    <input type="checkbox" name="check3" value="Berenang"> Berenang <br>
+                    <input type="checkbox" name="check4" value="Memasak"> Memasak <br>
+                </td>
+            </tr>
+            <tr>
+                <td>Kota Asal</td>
+                <td><input type="text" name="city" list="cities" placeholder="--Pilih--"></td>
+                <datalist id="cities">
+                    <option>Bandar Lampung</option>
+                    <option>Kotabumi</option>
+                    <option>Kalianda</option>
+                    <option>Metro</option>
+                    <option>Sukadana</option>
+                </datalist>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td><textarea name="alamat"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit" name="submit">Kirim</button>
+                    <button type="reset" name="reset">Batal</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+    </div>
+    </div>
+</body>
+</html>

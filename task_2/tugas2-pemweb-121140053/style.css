@@ -1,0 +1,87 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: cadetblue ;
+}
+
+.judul{
+    text-align: center;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 5px 13px;
+    border: 1px solid;
+}
+input[type=number]{
+    width: 100%;
+    padding: 5px 13px;
+    border: 1px solid;
+}
+input[type=password]{
+    width: 100%;
+    padding: 5px 13px;
+    border: 1px solid;
+}
+input[type=date]{
+    width: 100%;
+    padding: 5px 13px;
+    border: 1px solid;
+}
+textarea[name=alamat]{
+    width: 100%;
+    padding: 5px 13px;
+    border: 1px solid;
+}
+
+button[type=submit]{
+    width: 40%;
+    background-color: dimgray;
+    padding: 5px 13px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+button[type=reset]{
+    width: 40%;
+    background-color: dimgray;
+    padding: 5px 13px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+button[type=submit]:hover{
+    background-color: darkgrey;
+}
+button[type=reset]:hover{
+    background-color: darkgrey;
+}
+
+.wrap{
+    max-width: 470px;
+    width: 100%;
+    margin: auto;
+    color: black;
+    border-radius: 12px;
+    padding: 20px 30px 120px;
+    background-color: cadetblue;
+}
+
+.container{
+    position: relative;
+    width: 100;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 8px;
+}
+
+.container form{
+    margin-top: 30px;
+}
+
+table{
+    margin: 5px;
+}
